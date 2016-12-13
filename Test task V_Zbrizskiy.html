@@ -1,9 +1,7 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
-
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
 </head>
 <body>
@@ -201,9 +199,9 @@
 								<tr>
 									<td style="padding-left: 22px; padding-right: 18px; padding-top: 11px; padding-bottom: 24px;">
 										<form>
-											<button class="all-btn">
+											<a href="#" class="all-btn">
 												View all 40 updates
-											</button>
+											</a>
 										</form>
 									</td>
 								</tr>
@@ -241,14 +239,14 @@
 										<h4 class="h-type-2">
 											Deloitte Service Providers
 										</h4>
-										<p style="padding-left: 30px; font-size: 15px;">
+										<p style="padding-left: 30px; font-size: 15px; line-height: 18px; color: #3b3735;">
 											The f rm specializes in marketing incubation  and seed stage investments in companies operating  in the software, and information technology.
 										</p>
 										<table class="full-tbl" style="padding-top: 2px; padding-left: 23px;" cellpadding="5" cellspacing="0"  width="50%">	
 											<tbody>
 												<tr>
 													<td>
-														<span> SP Type </span>
+														<span class="gray-color"> SP Type </span>
 													</td>
 													<td>
 														<span>Fund of Funds</span>
@@ -256,7 +254,7 @@
 												</tr>
 												<tr>
 													<td>
-														<span>Location</span>
+														<span class="gray-color">Location</span>
 													</td>
 													<td>
 														<span>Boston, MA</span>
@@ -265,9 +263,9 @@
 											</tbody>
 										</table>
 										<form>
-											<button class="btn-sm" style="margin-left: 29px; margin-top: 8px;">
+											<a href="#" class="btn-sm" style="margin-left: 29px; margin-top: 8px;">
 												View details
-											</button>
+											</a>
 										</form>
 									</td>
 								</tr>
@@ -291,11 +289,11 @@
 									</td>
 								</tr>
 								<tr>
-									<td style="padding-top: 8px; padding-left: 20px; padding-right: 20px; 	padding-bottom: 21px;">
+									<td style="padding-top: 8px; padding-left: 20px; padding-right: 20px; padding-bottom: 21px;">
 										<form>
-											<button class="all-btn">
+											<a href="#" class="all-btn">
 												View 40 updates
-											</button>
+											</a>
 										</form>
 									</td>
 								</tr>
@@ -336,7 +334,7 @@
 																		<span class="art-date">
 																			October 12, 2016
 																		</span>
-																		<p style=" margin-top: 7px; line-height: 18px;">
+																		<p style=" margin-top: 7px; font-size: 15px; line-height: 18px; color: #3b3735;">
 																			Knowlege is power. Information  is liberating. Education is the premise of progress, in every society, in every family.
 																		</p>
 																	</td>
@@ -348,9 +346,9 @@
 												<tr>
 													<td align="right">
 														<form>
-															<button class="btn-sm" style="margin-left: 29px; margin-top: 28px;">
+															<a href="#" class="btn-sm" style="margin-left: 29px; margin-top: 28px;">
 																View details
-															</button>
+															</a>
 														</form>
 													</td>
 												</tr>
@@ -367,7 +365,7 @@
 				<!-- footer -->
 				<tr>
 					<td align="center">
-						<table class="container" cellpadding="5" cellspacing="0" align="center" style="	padding-top: 10px; padding-left: 13px;" width="100%">	
+						<table class="container" cellpadding="5" cellspacing="0" align="center" style="	padding-top: 10px; padding-left: 13px;" width="100%">
 							<tbody>
 								<tr>
 									<td>
@@ -438,15 +436,17 @@
 									</td>
 								</tr>
 								<tr>
-									<td style="	padding-top: 13px;">
+									<td style="padding-top: 13px;">
 										<p class="p-foot">
 											John Gabbert
 										</p>
 										<p class="p-foot">
-											john@pitchbook.com
+											<a href="mailto:john@pitchbook.com">
+												john@pitchbook.com
+											</a>
 										</p>
 										<p class="p-foot">
-											(206) 257 7844
+											<a href="callto:2062577844">(206) 257 7844</a>
 										</p>
 									</td>
 								</tr>
@@ -456,6 +456,7 @@
 											Copyright © 2015 PitchBook Data, Inc. All rights reserved. <br>
 											M&A, private equity and venture capital financial information technology provider.
 										</p>
+										<p>&nbsp</p>
 									</td>
 								</tr>
 
@@ -500,7 +501,7 @@
 	p, table {
 		margin: 0;
 	}
-	span, p {
+	span, p, a, button {
 		font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	}
 	h1, h2, h3, h4, h5, h6 {
@@ -535,26 +536,32 @@
 	.all-btn {
 		background: transparent;
 		border: 1px solid #2F8F5C;
-		width: 100%;
+		color: #2F8F5C;
+		text-align: center;
+		text-decoration: none;
+		display: block;
 		border-radius: 2px;
 		line-height: 33px;
 		cursor: pointer;
 		font-size: 12px;
-		color: #2F8F5C;
+		width: 100%;
 	}
 	.sc-icon {
 		vertical-align: middle;
-		margin-right: 11px;
+		margin-left: 11px;
 		text-decoration: none;
 	}
 	.alerts {
 		font-size: 20px;
+		font-family: Montserrat, Helvetica, Arial, sans-serif;
+		font-weight: 100;
 	}
 	.up-number {
 		color: #2F8F5C;
 		font-weight: 600;
 		vertical-align: top;
 		font-size: 18px;
+		font-family: Montserrat, Helvetica, Arial, sans-serif;
 	}
 	.up-text {
 		vertical-align: top;
@@ -565,15 +572,14 @@
 		margin: 0;
 		text-transform: uppercase;
 		font-size: 18px;
-		font-family: "Open Sans", Helvetica, Arial, sans-serif;
 		color: #476b92;
+		font-weight: 100;
 	}
 	.h-type-2 {
 		font-weight: 100;
 		font-size: 14px;
 		margin-top: 13px;
 		margin-bottom: 4px;
-		font-family: "Open Sans", Helvetica, Arial, sans-serif;
 		color: #2F8F5C;
 		padding-left: 7px;
 	}
@@ -582,9 +588,13 @@
 		border: 1px solid #476b92;
 		border-radius: 3px;
 		line-height: 23px;
+		display: inline-block;
+		text-decoration: none;
+		text-align: center;
+		font-size: 12px;
 		margin-top: 8px;
 		margin-left: 28px;
-		width: 101px;
+		padding: 2px 16px;
 		color: #476b92;
 		outline: none;
 		cursor: pointer;
@@ -594,6 +604,7 @@
 		font-size: 17px;
 		font-weight: 100;
 		line-height: 23px;
+		font-weight: 100;
 	}
 	.art-date {
 		font-size: 13px;
@@ -610,6 +621,16 @@
 		font-size: 12px;
 		font-family: Monserrat, Helvetica, Arial, sans-serif;
 		color: #b39f9f;
+	}
+	.p-foot a {
+		font-size: 12px;
+		font-family: Monserrat, Helvetica, Arial, sans-serif;
+		color: #b39f9f;
+		text-decoration: none;
+		color: #547984;
+	}
+	.gray-color {
+		color: #a29f9d;
 	}
 </style>
 </body>
